@@ -1,3 +1,66 @@
 page-home {
 
+.homeBackground{
+    background-color:#E3E3E3  
+}
+
+.cardcontent
+{
+    padding: 0px !important;
+}
+
+  .Card1
+{
+      background-color: #E76817;
+      height:100px;
+}
+
+.Card2
+{
+      background-color: #3F7A7B;
+      height:100px;
+}
+
+.Card3
+{
+      background-color: #F9A413;
+      height:100px;
+}
+
+.Card4
+{
+      background-color: #32769B;   
+      height:100px;
+}
+
+.logoCard
+{
+    color: white;
+    background-color: #39434C;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+.logoDescription
+{
+    height: 200px;
+}
+
+.logSubText
+{
+    display: block;
+    margin-top: 50%;
+    text-align: center;
+}
+
+.cardDescription
+{
+    display: block;
+    color: wheat;
+    font-family: sans-serif;    
+    margin-top: 50%;
+    text-align: center;
+}
+
 }

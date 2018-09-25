@@ -1,17 +1,56 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Non-GMO Shopping Guide</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="homeBackground" padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="Card1">
+          <ion-card-content class="cardcontent">
+            <span class="cardDescription">Find <strong>Product</strong></span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="Card2">
+          <ion-card-content class="cardcontent">
+              <span class="cardDescription">Browse <strong>Categories</strong></span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card class="Card3">
+          <ion-card-content>
+              <span class="cardDescription">Browse <strong>Brands</strong></span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card class="Card4">
+          <ion-card-content>
+              <span class="cardDescription">Find <strong>Retailers</strong></span>   
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <ion-card>
+          <ion-card-title class="logoCard">
+            FEATURED BRANDS
+          </ion-card-title>
+          <ion-card-content class="logoDescription">
+            <span class="logSubText">Tap to learn more about this sponsor</span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

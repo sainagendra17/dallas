@@ -42,6 +42,18 @@ $colors: (
 );
 
 
+//Bottom Tabs
+
+$tabs-md-background:color($colors,dark);
+$tabs-md-tab-color-active:color($colors,light);
+$tabs-md-tab-color:color($colors,light);
+$tabs-md-tab-text-color:color($colors, light);
+
+.tabbar 
+{
+  background-color: black;
+}
+
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
